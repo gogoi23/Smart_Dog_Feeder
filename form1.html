@@ -1,0 +1,27 @@
+<!--This is the page where the user can input how many grams of food they want to feed the dog.   -->
+<html>
+    <head>
+        <title>My scratchboard page</title>
+    </head>
+
+
+
+   <body>
+
+
+
+Please enter how many grams of food you want to put into the bowl. The bowl can
+store between 1 and 150 grams of food:
+<div>
+    <form action="/data" method="POST">
+        <!-- This form redirects to the data page which displays whether input was valid or not. -->
+        <!-- This form displays a text value where the user can enter how much food they want to enter.-->
+        <textarea name="servoval" placeholder="Enter an integer value between 1 and 150"></textarea>
+        <input type="submit" value="Click to feed">
+    </form>
+</div>
+
+
+
+   </body>
+</html>
